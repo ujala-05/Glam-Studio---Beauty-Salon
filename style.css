@@ -53,11 +53,7 @@ body {
       list-style-type: none;
       padding: 0;
     }
-    .nav{
-        display: flex;
-      justify-content: center;
-      gap: 15px;
-    }
+    
 
     ul li {
       padding: 8px 0;
@@ -93,4 +89,44 @@ body {
 
     footer a:hover {
       text-decoration: underline;
+    }
+
+    form {
+      width: 320px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input, select {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      width: 100%;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: #e91e63;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #c2185b;
     }

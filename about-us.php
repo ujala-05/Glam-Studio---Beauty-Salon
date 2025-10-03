@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glam Studio | Homepage </title>
-    <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-</head>
-<body>
 <?php include 'header.php'; ?>
-
-  <main>
+<main>
         <div class="container">
             <h1>About Us</h1>
             <p>
@@ -63,9 +52,7 @@
         Glam Studio is here to make every visit a beautiful experience.
     </p>
   </div>
- </main>
+</main>
 
-  <!-- Footer -->
-  <?php include 'footer.php'; ?>
-</body>
-</html>
+<!-- Footer -->
+<?php include 'footer.php'; ?>
