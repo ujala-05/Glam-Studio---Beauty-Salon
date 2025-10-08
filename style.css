@@ -5,36 +5,36 @@ body {
       line-height: 1.6;
       background-color: #fdfdfd;
       color: #333;
-    }
+}
 
-    header {
+header {
       background: #e91e63;
       color: #fff;
       padding: 20px 0;
       text-align: center;
-    }
+}
 
-    header h1 {
+header h1 {
       margin: 0;
       font-size: 2.5rem;
-    }
+}
 
-    nav {
+nav {
       margin-top: 10px;
-    }
+}
 
-    nav a {
+nav a {
       color: #fff;
       text-decoration: none;
       margin: 0 15px;
       font-weight: bold;
-    }
+}
 
-    nav a:hover {
+nav a:hover {
       text-decoration: underline;
-    }
+}
 
-    .container {
+.container {
       width: 90%;
       max-width: 1100px;
       margin: 20px auto;
@@ -42,24 +42,24 @@ body {
       background: #fff;
       border-radius: 8px;
       box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
-    }
+}
 
-    h2 {
+h2 {
       color: #e91e63;
       margin-top: 30px;
-    }
+}
 
-    ul {
+ul {
       list-style-type: none;
       padding: 0;
-    }
+}
     
 
-    ul li {
+ul li {
       padding: 8px 0;
-    }
+}
 
-    a.button {
+a.button {
       display: inline-block;
       margin-top: 15px;
       padding: 12px 25px;
@@ -68,30 +68,30 @@ body {
       border-radius: 5px;
       text-decoration: none;
       font-weight: bold;
-    }
+}
 
-    a.button:hover {
+a.button:hover {
       background: #c2185b;
-    }
+}
 
-    footer {
+footer {
       text-align: center;
       background: #f1f1f1;
       padding: 15px;
       margin-top: 30px;
       font-size: 0.9rem;
-    }
+}
 
-    footer a {
+footer a {
       color: #e91e63;
       text-decoration: none;
-    }
+}
 
-    footer a:hover {
+footer a:hover {
       text-decoration: underline;
-    }
+}
 
-    form {
+form {
       width: 320px;
       margin: 30px auto;
       padding: 20px;
@@ -101,22 +101,23 @@ body {
       display: flex;
       flex-direction: column;
       gap: 12px;
-    }
+}
 
-    label {
+label {
       font-weight: bold;
       margin-bottom: 5px;
-    }
+}
 
-    input, select {
+input, select {
       padding: 8px;
       border: 1px solid #ccc;
       border-radius: 6px;
       font-size: 14px;
       width: 100%;
-    }
+}
 
-    .button {
+
+.button {
       display: inline-block;
       margin-top: 15px;
       padding: 12px 25px;
@@ -125,8 +126,216 @@ body {
       border-radius: 5px;
       text-decoration: none;
       font-weight: bold;
-    }
+      box-shadow: none !important;      /* removes shadow */
+      outline: none; 
+ }
 
-    .button:hover {
+.button:hover {
       background: #c2185b;
-    }
+      box-shadow: none !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 servives per row*/
+  gap: 20px;
+  padding: 20px;
+}
+
+.services-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.services-card:hover {
+  transform: scale(1.03);
+}
+
+.services-card img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover; /* uniform image sizes*/
+  border-radius: 8px;
+  display: block;
+}
+
+.services-card h2 {
+  text-align: left;
+  margin: 10px 0;
+  color: #e91e63;
+}
+
+.services-card p {
+  text-align: left;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/*Login form CSS */
+.form-table {
+  background:#e91e63;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 25px;
+    color: #e91e63;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.login-form input:focus {
+    border-color: #e91e63;
+    outline: none;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background: #e91e63;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+    background: #c2185b;
+}
+
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #e91e63;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.booking-details {
+      text-align: center;  
+}
+
+.success-message {
+      text-align: center;
+}
+
+.admin-table {
+  background:#e91e63;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: auto; /* Flexible height that grows with content */
+  margin: 0;
+}
+
+.admin-container {
+  background: #ffffff;
+  margin: 50px auto;                
+  padding: 40px 60px;                
+  width: 90%;                        /* Responsive width */
+  max-width: 1200px;                 /* Keeps it stable on large screens */
+  border-radius: 12px;               /* Smooth corners */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1); 
+  text-align: center;
+  box-sizing: border-box;            
+  min-height: 200px;                 /* Ensures visible structure */
+  height: auto;                      /* Flexible height that grows with content */
+  display: block;                     
+                
+}
+
+
+.login-container h2 {
+    margin-bottom: 25px;
+    color: #e91e63;
+}
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 servives per row*/
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #e91e63;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+
+.card h2 {
+  margin: 10px 0;
+  color: #fff;
+}
+
+.card p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+th {
+        background-color: #e91e63;
+        color: white;
+}
+
+@media (max-width: 768px) {
+  .services-card img, 
+  .service-img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-container {
+    grid-template-columns: 1fr; /* switch to 1 per row on smaller screens */
+  }
+}
