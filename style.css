@@ -113,7 +113,7 @@ input, select {
       border: 1px solid #ccc;
       border-radius: 6px;
       font-size: 14px;
-      width: 100%;
+      width: 80%;
 }
 
 
@@ -207,7 +207,7 @@ input, select {
 }
 
 .login-form input {
-    width: 100%;
+    width: 80%;
     padding: 12px 15px;
     margin-bottom: 15px;
     border-radius: 6px;

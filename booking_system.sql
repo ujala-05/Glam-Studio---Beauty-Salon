@@ -46,10 +46,10 @@ CREATE TABLE feedback (
 
 -- Insert some services
 INSERT INTO services (name, description, price, image) VALUES
-('Hair Coloring', 'Different color looks', 75.00, 'images\hair-coloring.png'),
-('Hair Styling', 'Haircuts, blow-dry, and treatments', 60.00,'images\hair-styling.png'),
-('Eyelash Extension', 'long or short eye lash', 25.00, 'images\eyelash-extension.png' ),
-('Nail Extension', 'Manicures, pedicures, nail art, and extensions', 50.00, 'images\nail-extension.png');
+('Hair Coloring', 'Different color looks', 75.00, 'images\\hair-coloring.png'),
+('Hair Styling', 'Haircuts, blow-dry, and treatments', 60.00,'images\\hair-styling.png'),
+('Eyelash Extension', 'long or short eye lash', 25.00, 'images\\eyelash-extension.png' ),
+('Nail Extension', 'Manicures, pedicures, nail art, and extensions', 50.00, 'images\\nail-extension.png');
 
 -- Insert admin account
 INSERT INTO users (name, email, password, role) 
